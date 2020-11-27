@@ -8,7 +8,7 @@
     "installer": {
         "file": "JAGS-4.3.0.exe"
     },
-    "uninstaller: {
+    "uninstaller": {
         "file": "Uninstall.exe"
     }
 }
