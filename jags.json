@@ -6,7 +6,7 @@
     "url": "https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Windows/JAGS-4.3.0.exe",
     "hash": "md5:e77fc9ef2772d4cf0e614efd56a13411",
     "installer": {
-        "script": "$Env:__COMPAT_LAYER='RunAsInvoker'; Invoke-Expression \"$dir\\$fname /S /D=$dir | Out-Null \" "
+        "script": "$Env:__COMPAT_LAYER='RunAsInvoker'; Invoke-Expression \"$dir\\$fname /S /CurrentUser /D=$dir | Out-Null \" "
     },
     "uninstaller": {
         "script": "$Env:__COMPAT_LAYER='RunAsInvoker'; Invoke-Expression \"$dir\\Uninstall /S _?=$dir | Out-Null \" "
