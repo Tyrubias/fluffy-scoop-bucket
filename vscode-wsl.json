@@ -33,12 +33,6 @@
             ]
         }
     },
-    "bin": [
-        [
-            "bin\\code.cmd",
-            "code"
-        ]
-    ],
     "shortcuts": [
         [
             "code.exe",
