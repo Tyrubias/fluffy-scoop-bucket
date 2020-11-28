@@ -35,10 +35,6 @@
     },
     "bin": [
         [
-            "bin\\code",
-            "codel"
-        ],
-        [
             "bin\\code.cmd",
             "code"
         ]
@@ -67,6 +63,7 @@
         "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
         "}"
     ],
+    "env_add_path": "bin",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=stable",
         "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
