@@ -37,6 +37,10 @@
         [
             "bin\\code",
             "code"
+        ],
+        [
+            "bin\\code.cmd",
+            "codewin"
         ]
     ],
     "shortcuts": [
